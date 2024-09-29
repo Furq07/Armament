@@ -13,6 +13,8 @@ class InventoryUpdater(private val plugin: Armament) {
 
     private val armorsConfigFile = File(plugin.dataFolder, "armors.yml")
     private val armorsConfig = YamlConfiguration.loadConfiguration(armorsConfigFile)
+    private val materialGetter = MaterialGetter(plugin)
+    private val armorMaterials = materialGetter.getArmorMaterial()
 
     fun updatePlayerInventory(inventory: PlayerInventory) {
         inventory.contents.filterNotNull().forEachIndexed { index, item ->
@@ -40,10 +42,8 @@ class InventoryUpdater(private val plugin: Armament) {
 
         var updateNeeded = false
 
-        val materialGetter = MaterialGetter(plugin)
-        if (item.type !in materialGetter.getArmorMaterial()) {
-            val material =
-                materialGetter.getArmorMaterial().firstOrNull { it.name.contains(item.type.name.split("_").last()) }
+        if (item.type !in armorMaterials) {
+            val material = armorMaterials.firstOrNull { it.name.contains(item.type.name.split("_").last()) }
             if (material != null) {
                 item.type = material
                 updateNeeded = true
