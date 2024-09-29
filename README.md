@@ -1,6 +1,6 @@
 # 🧥 **Armament**
 
-*Enhance your Minecraft experience with custom armor sets!*
+Adds the ability to create configurable custom armors using resource packs.
 
 ---
 
@@ -92,7 +92,7 @@ For assistance, visit the [GitHub Repository](https://github.com/furq07/armament
 
 ## 📜 **License**
 
-Armament is released under the [MIT License](https://opensource.org/licenses/MIT).
+Armament is released under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ---
 
