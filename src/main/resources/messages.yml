@@ -1,0 +1,11 @@
+# This is the messages file, change the message formats as you need to!
+prefix: "§9Armament §6»"
+command-unknown: "§7Unknown command. Please check the command syntax."
+armors-not-found: "§7No armors found in the configuration."
+armor-not-found: "§7Requested armor not found in the configuration."
+material-invalid: "§7The specified material is invalid."
+armor-given: "§7Successfully granted §a{player} §7the armor §a{armorName}§7."
+armor-received: "§7You have been given the armor §a{armorName}§7."
+armorset-given: "§7Successfully granted §a{player} §7the armor set §a{armorName}§7."
+armorset-received: "§7You have been given the armor set §a{armorName}§7."
+player-not-found: "§7The specified player could not be found."

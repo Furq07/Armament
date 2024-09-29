@@ -1,0 +1,22 @@
+armors:
+  epic:
+    # Custom model data for the epic armor set
+    custom_model_data: 1
+    chestplate:
+      # Name of the epic chestplate
+      name: "&6Epic Chestplate"
+      # Lore for the epic chestplate
+      lore:
+        - "&7Custom Epic Lore!"
+    leggings:
+      # Name of the epic leggings
+      name: "&6Epic Leggings"
+      # Lore for the epic leggings
+      lore:
+        - "&7Custom Epic Lore!"
+    boots:
+      # Name of the epic boots
+      name: "&6Epic Boots"
+      # Lore for the epic boots
+      lore:
+        - "&7Custom Epic Lore!"

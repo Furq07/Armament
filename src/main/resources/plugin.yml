@@ -1,0 +1,12 @@
+name: Armament
+version: '${version}'
+main: dev.furq.armament.Armament
+api-version: '1.20'
+Author: ["Furq"]
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.20
+commands:
+  armament:
+    description: Main command of the plugin
+    usage: /<command> <subcommand>
+    permission: armament.admin

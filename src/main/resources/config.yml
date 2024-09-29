@@ -1,0 +1,8 @@
+# The armor material that will be used for Custom Armors.
+# Available Options:
+# CHAINMAIL
+# IRON
+# GOLD
+# DIAMOND
+# NETHERITE
+armor_material: DIAMOND # set to Diamond by default!
