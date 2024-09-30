@@ -18,6 +18,7 @@ class TabCompleter(private val plugin: Armament) : TabCompleter {
                 1 -> {
                     return listOf("reload", "give", "giveset", "gui")
                 }
+
                 2 -> {
                     when (args[0].lowercase()) {
                         "give", "giveset" -> {
@@ -28,6 +29,7 @@ class TabCompleter(private val plugin: Armament) : TabCompleter {
                         else -> return null
                     }
                 }
+
                 3 -> {
                     when (args[0].lowercase()) {
                         "give" -> {
